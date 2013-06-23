@@ -1,4 +1,7 @@
 # Example lodgeit file
+import os
+import sys
+sys.path.append(os.path.dirname(__file__))
 from lodgeit import make_app
 
 application = make_app(
